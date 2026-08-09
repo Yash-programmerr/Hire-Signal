@@ -25,7 +25,7 @@ The frontend runs at `http://localhost:5173` and communicates with the FastAPI s
 
 ## 4.Happy Ranking :)
 
-## 5.API workflow
+#### 5.API workflow
 
 1. `POST /api/rankings` uploads the candidates JSONL, job description, and optional YAML metadata.
 2. `GET /api/rankings/{job_id}/status` reports live background-job progress.

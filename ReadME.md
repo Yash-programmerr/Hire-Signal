@@ -6,7 +6,7 @@ The application now uses FastAPI for the backend and React/Vite for the frontend
 
 ```bash
 pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+python -m uvicorn main:app --reload --port 8000
 ```
 
 The API is available at `http://localhost:8000`, with interactive documentation at `http://localhost:8000/docs`.

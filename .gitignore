@@ -13,7 +13,4 @@ env/
 *.egg-info/
 .pytest_cache/
 storage/
-dataset_library/candidates/*.jsonl
-dataset_library/job_descriptions/*.txt
-dataset_library/job_descriptions/*.pdf
-dataset_library/job_descriptions/*.docx
+

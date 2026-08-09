@@ -23,6 +23,8 @@ The frontend runs at `http://localhost:5173` and communicates with the FastAPI s
 
 ## Add files manually or from the Dataset Library section and rank Candidates against a specific JD.
 
+## Happy Ranking :)
+
 ## API workflow
 
 1. `POST /api/rankings` uploads the candidates JSONL, job description, and optional YAML metadata.

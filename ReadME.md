@@ -1,6 +1,6 @@
 # HireSignal Candidate Ranking
 
-The application now uses FastAPI for the backend and React/Vite for the frontend. Streamlit has been removed.
+The application uses FastAPI for the backend and React/Vite for the frontend.
 
 ## Run the backend
 

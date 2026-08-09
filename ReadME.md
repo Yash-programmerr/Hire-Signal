@@ -21,6 +21,8 @@ npm run dev
 
 The frontend runs at `http://localhost:5173` and communicates with the FastAPI service at `http://localhost:8000/api`.
 
+## Add files manually or from the Dataset Library section and rank Candidates against a specific JD.
+
 ## API workflow
 
 1. `POST /api/rankings` uploads the candidates JSONL, job description, and optional YAML metadata.

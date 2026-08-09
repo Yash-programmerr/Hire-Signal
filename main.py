@@ -30,11 +30,12 @@ from scoring import (
 )
 
 API_PREFIX = "/api"
-STORAGE_DIR = Path("/tmp/jobs")
+BASE_STORAGE_DIR = Path(os.getenv("STORAGE_DIR", "/tmp/redrobai"))
+STORAGE_DIR = BASE_STORAGE_DIR / "jobs"
+LIBRARY_DIR = BASE_STORAGE_DIR / "dataset_library"
+LIBRARY_CANDIDATES_DIR = LIBRARY_DIR / "candidates"
+LIBRARY_JDS_DIR = LIBRARY_DIR / "job_descriptions"
 STORAGE_DIR.mkdir(parents=True, exist_ok=True)
-DATASET_LIBRARY_DIR = Path(os.getenv("DATASET_LIBRARY_DIR", "dataset_library"))
-LIBRARY_CANDIDATES_DIR = Path("/tmp/library/candidates")
-LIBRARY_JDS_DIR = DATASET_LIBRARY_DIR / "job_descriptions"
 LIBRARY_CANDIDATES_DIR.mkdir(parents=True, exist_ok=True)
 LIBRARY_JDS_DIR.mkdir(parents=True, exist_ok=True)
 

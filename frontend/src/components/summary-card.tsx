@@ -1,0 +1,3 @@
+import { motion } from "framer-motion";
+import type { LucideIcon } from "lucide-react";
+export function SummaryCard({ label, value, icon: Icon, suffix }: { label: string; value: string | number; icon: LucideIcon; suffix?: string }) { return <motion.div whileHover={{ y: -2 }} className="surface p-5"><div className="flex items-center justify-between"><span className="text-sm font-medium text-slate-500">{label}</span><span className="rounded-xl bg-indigo-50 p-2.5 text-indigo-600"><Icon className="h-4 w-4" /></span></div><p className="mt-5 font-[Space_Grotesk] text-2xl font-bold tracking-tight text-[#172554]">{value}{suffix}</p></motion.div>; }

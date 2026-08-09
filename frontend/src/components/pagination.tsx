@@ -1,0 +1,4 @@
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "./ui/button";
+import type { PageInfo } from "../types/api";
+export function Pagination({ page, onChange }: { page: PageInfo; onChange: (page: number) => void }) { return <div className="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 px-5 py-3 text-sm text-slate-500"><span>Page {page.page} of {page.totalPages} · {page.total} candidates</span><div className="flex gap-2"><Button variant="ghost" size="sm" disabled={page.page <= 1} onClick={() => onChange(page.page - 1)}><ChevronLeft className="h-4 w-4" />Previous</Button><Button variant="ghost" size="sm" disabled={page.page >= page.totalPages} onClick={() => onChange(page.page + 1)}>Next<ChevronRight className="h-4 w-4" /></Button></div></div>; }

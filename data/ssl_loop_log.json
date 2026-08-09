@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "labelled_before": 160,
+    "new_pseudo_labels": 323,
+    "labelled_after": 483,
+    "remaining_pool": 71341,
+    "mae_text": 0.25749386878609654,
+    "mae_tabular": 0.23318007937042254,
+    "mae_ensemble": 0.24017438841768213
+  },
+  {
+    "round": 2,
+    "labelled_before": 483,
+    "new_pseudo_labels": 1238,
+    "labelled_after": 1721,
+    "remaining_pool": 70103,
+    "mae_text": 0.26052112536430355,
+    "mae_tabular": 0.23712082110797733,
+    "mae_ensemble": 0.2455629816124701
+  },
+  {
+    "round": 3,
+    "labelled_before": 1721,
+    "new_pseudo_labels": 3350,
+    "labelled_after": 5071,
+    "remaining_pool": 66753,
+    "mae_text": 0.26424995601177215,
+    "mae_tabular": 0.26680036858385386,
+    "mae_ensemble": 0.26578020199039926
+  },
+  {
+    "round": 4,
+    "labelled_before": 5071,
+    "new_pseudo_labels": 4913,
+    "labelled_after": 9984,
+    "remaining_pool": 61840,
+    "mae_text": 0.2662905532062053,
+    "mae_tabular": 0.2936703943878883,
+    "mae_ensemble": 0.2809956850371062
+  },
+  {
+    "round": 5,
+    "labelled_before": 9984,
+    "new_pseudo_labels": 10963,
+    "labelled_after": 20947,
+    "remaining_pool": 50877,
+    "mae_text": 0.26418848441839216,
+    "mae_tabular": 0.31076854328706416,
+    "mae_ensemble": 0.28830011818882556
+  },
+  {
+    "round": 6,
+    "labelled_before": 20947,
+    "new_pseudo_labels": 6573,
+    "labelled_after": 27520,
+    "remaining_pool": 44304,
+    "mae_text": 0.26788757770657534,
+    "mae_tabular": 0.30645471424648935,
+    "mae_ensemble": 0.28714948405140506
+  },
+  {
+    "round": 7,
+    "labelled_before": 27520,
+    "new_pseudo_labels": 11288,
+    "labelled_after": 38808,
+    "remaining_pool": 33016,
+    "mae_text": 0.27087515100240706,
+    "mae_tabular": 0.2997190562819706,
+    "mae_ensemble": 0.2844490399256508
+  },
+  {
+    "round": 8,
+    "labelled_before": 38808,
+    "new_pseudo_labels": 9132,
+    "labelled_after": 47940,
+    "remaining_pool": 23884,
+    "mae_text": 0.27580640866756434,
+    "mae_tabular": 0.293658887653519,
+    "mae_ensemble": 0.2830599390479739
+  }
+]

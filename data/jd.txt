@@ -1,0 +1,33 @@
+[PLACEHOLDER — replace with the official job description before final submission]
+
+Senior NLP / Search Ranking Engineer — Redrob (Pune or Noida, India)
+
+We are hiring a Senior NLP / Search Ranking Engineer to build and improve candidate–job
+matching at Redrob. You will design, implement, and productionize search and ranking
+systems that help recruiters discover the best talent from large candidate pools.
+
+Responsibilities:
+- Build and maintain semantic search and learning-to-rank pipelines over millions of profiles
+- Develop embedding-based retrieval using vector databases (FAISS, Milvus, Qdrant, Weaviate, pgvector)
+- Implement and tune IR components: BM25, dense retrieval, hybrid search, re-ranking
+- Apply modern NLP/LLM tooling: Hugging Face Transformers, sentence embeddings, RAG, LangChain, LlamaIndex
+- Fine-tune and deploy models (LoRA, PEFT, QLoRA) for domain-specific matching
+- Productionize ML with PyTorch, MLOps tooling (MLflow, Kubeflow, Weights & Biases)
+- Collaborate with product and data engineering on Elasticsearch / OpenSearch / Haystack stacks
+- Measure ranking quality (NDCG, MRR, precision@k) and iterate on feature and model improvements
+
+Requirements:
+- 5–9 years of software / ML engineering experience with strong Python proficiency
+- Hands-on experience with information retrieval, recommendation systems, or semantic search
+- Production experience with at least one vector database and one search backend
+- Solid understanding of embeddings, learning-to-rank, and NLP fundamentals
+- Experience shipping ML systems in cloud environments (AWS / GCP / Azure)
+- Strong communication skills; comfortable working cross-functionally with recruiters and PMs
+
+Nice to have:
+- Experience with BentoML or similar model-serving frameworks
+- Background in HR-tech, talent marketplaces, or two-sided matching platforms
+- Contributions to open-source ML / IR libraries
+
+Location: Pune or Noida preferred; open to strong candidates elsewhere in India willing to relocate.
+Work mode: Hybrid.

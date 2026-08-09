@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-slate-200; }
+  body { @apply min-h-screen bg-[#F8FAFC] font-sans text-[#172554] antialiased; }
+  button, input { font: inherit; }
+}
+
+@layer components {
+  .surface { @apply rounded-2xl border border-slate-200 bg-white shadow-[0_2px_10px_rgba(15,23,42,.035)]; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[.14em] text-indigo-500; }
+  .focus-ring { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white; }
+  .muted { @apply text-slate-500; }
+}

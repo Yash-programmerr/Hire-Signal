@@ -1,0 +1,19 @@
+# csv files
+all_candidates.csv
+submission.csv
+your_participant_id.csv
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+storage/
+dataset_library/candidates/*.jsonl
+dataset_library/job_descriptions/*.txt
+dataset_library/job_descriptions/*.pdf
+dataset_library/job_descriptions/*.docx

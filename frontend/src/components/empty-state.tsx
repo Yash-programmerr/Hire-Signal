@@ -1,0 +1,4 @@
+import { FileQuestion } from "lucide-react";
+import { motion } from "framer-motion";
+import { Button } from "./ui/button";
+export function EmptyState({ title, description, actionLabel, onAction }: { title: string; description: string; actionLabel?: string; onAction?: () => void }) { return <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="surface flex min-h-72 flex-col items-center justify-center px-6 text-center"><div className="mb-5 rounded-2xl bg-indigo-50 p-4 text-indigo-600"><FileQuestion className="h-7 w-7" /></div><h2 className="text-lg font-bold text-[#172554]">{title}</h2><p className="mt-2 max-w-md text-sm leading-6 text-slate-500">{description}</p>{actionLabel && onAction ? <Button className="mt-6" onClick={onAction}>{actionLabel}</Button> : null}</motion.div>; }

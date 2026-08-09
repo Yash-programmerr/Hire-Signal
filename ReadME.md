@@ -21,7 +21,7 @@ npm run dev
 
 The frontend runs at `http://localhost:5173` and communicates with the FastAPI service at `http://localhost:8000/api`.
 
-## 3.Add files manually or from the Dataset Library section and rank Candidates against a specific JD.
+### 3.Add files manually or from the Dataset Library section and rank Candidates against a specific JD.
 
 ## 4.Happy Ranking :)
 

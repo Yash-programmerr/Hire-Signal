@@ -1,0 +1,6 @@
+candidate_id,rank,name,score,match_percentage,experience,reason_codes,reasoning
+CAND_0000001,1,Ira Vora,0.34849,34.85,6.9 years,Aspirational career pivot signal,Backend Engineer with 6.9 yrs; 4 AI core skills; strong Fine-tuning LLMs assessment (41.6); caveats: slow response (~7d); Toronto
+CAND_0000002,2,Saanvi Sethi,0.104343,10.43,12.5 years,,"Operations Manager with 12.5 yrs; 0 AI core skills; no assessment data; caveats: slow response (~7d), low response rate (0.29); Chennai, Tamil Nadu"
+CAND_0000005,3,Aisha Sethi,0.011735,1.17,11.0 years,CV/Speech profile without NLP/IR signal,"Accountant with 11.0 yrs; 0 AI core skills; no assessment data; caveats: slow response (~5d); Gurgaon, Haryana"
+CAND_0000004,4,Anil Bose,0.011332,1.13,3.8 years,CV/Speech profile without NLP/IR signal,"Marketing Manager with 3.8 yrs; 0 AI core skills; no assessment data; caveats: 120-day notice period, slow response (~4d), low response rate (0.26); Sydney"
+CAND_0000003,5,Yash Agarwal,0.003788,0.38,1.1 years,Consulting-only career history,"Customer Support with 1.1 yrs; 0 AI core skills; no assessment data; caveats: 150-day notice period, slow response (~5d); Austin"

@@ -30,7 +30,7 @@ from scoring import (
 )
 
 API_PREFIX = "/api"
-STORAGE_DIR = Path(os.getenv("RANKING_STORAGE_DIR", "storage/jobs"))
+STORAGE_DIR = Path("/tmp/jobs")
 STORAGE_DIR.mkdir(parents=True, exist_ok=True)
 DATASET_LIBRARY_DIR = Path(os.getenv("DATASET_LIBRARY_DIR", "dataset_library"))
 LIBRARY_CANDIDATES_DIR = DATASET_LIBRARY_DIR / "candidates"
